@@ -142,7 +142,7 @@ public class MapManager implements Manager, StarSystemAPI {
 
         mapBound.set(0, 0, internalWidth, internalHeight);
 
-        int currMap = API.readInt(address + 76);
+        int currMap = API.readInt(address + 84);
         boolean switched = currMap != id;
 
         if (switched)
